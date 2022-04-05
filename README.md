@@ -1,1 +1,1 @@
-# Aplica-ia-de-urm-rire-a-cheltuielilor
+# Aplicatie-de-urmarire-a-cheltuielilor

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicația de urmărire a cheltuielilor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <h2>Aplicația de urmărire a cheltuielilor</h2>
+    <div class="container">
+        <h4>Echilibrul tau</h4>
+        <h1 id="balance" class="balance">€0.00</h1>
+
+        <div class="income-expense-container">
+            <div>
+                <h4>Sursa de venit</h4>
+                <p id="money-plus" class="money-plus">+€0.00</p>
+            </div>
+            <div>
+                <h4>Cheltuiala</h4>
+                <p id="money-minus" class="money-minus">-€0.00</p>
+            </div>
+        </div>
+
+        <h3>Istoric</h3>
+        <ul id="list" class="list"></ul>
+
+        <h3>Adăugați o nouă tranzacție</h3>
+
+        <div class="message"></div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="text">Text</label>
+                <input type="text" name="text" id="text" placeholder="Introdu text..">
+            </div>
+            <div class="form-control">
+                <label for="amount">Cantitate <br>(negativ - cheltuială, pozitiv-venit)</label>
+                <input type="number" name="amount" id="amount" placeholder="Introduceți suma..">
+            </div>
+            <button class="btn" id="btn">Adăugați tranzacție</button>
+        </form>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
